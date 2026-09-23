@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Smart Nursery Information Portal - Discover plants, learn plant care and find suitable plants for your space.">
+
+    <title>Smart Nursery Information Portal</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     PRELOADER
+========================================================= -->
+
+<div id="preloader">
+    <div class="loader">
+        <i class="fa-solid fa-leaf"></i>
+        <span>Smart Nursery</span>
+    </div>
+</div>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-seedling"></i>
+            </div>
+
+            <div>
+                <strong>Smart Nursery</strong>
+                <small>Information Portal</small>
+            </div>
+        </a>
+
+
+        <nav id="navMenu">
+
+            <a href="#home" class="nav-link active">
+                Home
+            </a>
+
+            <a href="#plants" class="nav-link">
+                Plants
+            </a>
+
+            <a href="#care" class="nav-link">
+                Plant Care
+            </a>
+
+            <a href="#finder" class="nav-link">
+                Find My Plant
+            </a>
+
+            <a href="#nurseries" class="nav-link">
+                Nurseries
+            </a>
+
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button id="themeToggle"
+                    class="icon-button"
+                    aria-label="Change theme">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+            <button id="menuToggle"
+                    class="menu-button"
+                    aria-label="Open menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<main>
+
+<section id="home" class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            <i class="fa-solid fa-leaf"></i>
+            Grow Better • Live Greener
+        </div>
+
+
+        <h1>
+            Grow Smarter.
+            <span>Live Greener.</span>
+        </h1>
+
+
+        <p class="hero-description">
+
+            Your simple guide to discovering the right plants,
+            understanding plant care, and finding nurseries
+            around your community.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#plants" class="primary-button">
+
+                Explore Plants
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+            <a href="#finder" class="secondary-button">
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                Find My Plant
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-trust">
+
+            <div class="avatars">
+
+                <span>🌱</span>
+                <span>🌿</span>
+                <span>🌳</span>
+
+            </div>
+
+            <div>
+                <strong>Beginner Friendly</strong>
+                <small>Simple plant-care guidance</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-plant-card">
+
+        <div class="floating-card card-one">
+
+            <i class="fa-solid fa-droplet"></i>
+
+            <div>
+                <strong>Water Guide</strong>
+                <span>Know when to water</span>
+            </div>
+
+        </div>
+
+
+        <div class="floating-card card-two">
+
+            <i class="fa-solid fa-sun"></i>
+
+            <div>
+                <strong>Sunlight</strong>
+                <span>Find the perfect spot</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     QUICK STATS
+========================================================= -->
+
+<section class="stats-section">
+
+    <div class="stats-container">
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+
+            <div>
+                <strong class="counter" data-target="120">
+                    0
+                </strong>
+
+                <span>Plant Varieties</span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+
+            <div>
+                <strong class="counter" data-target="35">
+                    0
+                </strong>
+
+                <span>Common Problems</span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-layer-group"></i>
+            </div>
+
+            <div>
+                <strong class="counter" data-target="8">
+                    0
+                </strong>
+
+                <span>Plant Categories</span>
+            </div>
+
+        </div>
+
+
+        <div class="stat">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+
+            <div>
+                <strong class="counter" data-target="500">
+                    0
+                </strong>
+
+                <span>Community Goal</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FEATURES
+========================================================= -->
+
+<section class="section features-section">
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            WHY SMART NURSERY?
+        </span>
+
+        <h2>
+            Everything you need to
+            <span>grow with confidence.</span>
+        </h2>
+
+        <p>
+            Simple tools and information designed especially
+            for beginners, home gardeners and plant lovers.
+        </p>
+
+    </div>
+
+
+    <div class="feature-grid">
+
+        <article class="feature-card">
+
+            <div class="feature-icon green">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <h3>Plant Finder</h3>
+
+            <p>
+                Search and filter plants according to
+                your requirements.
+            </p>
+
+            <a href="#plants">
+                Explore
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon blue">
+                <i class="fa-solid fa-hand-holding-droplet"></i>
+            </div>
+
+            <h3>Care Center</h3>
+
+            <p>
+                Learn about watering, sunlight, soil,
+                fertilizer and pruning.
+            </p>
+
+            <a href="#care">
+                Learn Care
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon orange">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+
+            <h3>Smart Recommendation</h3>
+
+            <p>
+                Tell us about your space and receive
+                suitable plant suggestions.
+            </p>
+
+            <a href="#finder">
+                Find Plant
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <div class="feature-icon purple">
+                <i class="fa-solid fa-shop"></i>
+            </div>
+
+            <h3>Nursery Directory</h3>
+
+            <p>
+                Discover useful information about
+                participating local nurseries.
+            </p>
+
+            <a href="#nurseries">
+                View Nurseries
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PLANT DIRECTORY
+========================================================= -->
+
+<section id="plants" class="section plants-section">
+
+    <div class="section-heading left">
+
+        <span class="eyebrow">
+            PLANT DIRECTORY
+        </span>
+
+        <h2>
+            Discover your
+            <span>next green friend.</span>
+        </h2>
+
+        <p>
+            Explore plants and understand their basic
+            growing requirements.
+        </p>
+
+    </div>
+
+
+    <div class="plant-toolbar">
+
+        <div class="search-wrapper">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search plants..."
+            >
+
+        </div>
+
+
+        <select id="categoryFilter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="indoor">
+                Indoor
+            </option>
+
+            <option value="flowering">
+                Flowering
+            </option>
+
+            <option value="medicinal">
+                Medicinal
+            </option>
+
+            <option value="fruit">
+                Fruit
+            </option>
+
+            <option value="vegetable">
+                Vegetable
+            </option>
+
+        </select>
+
+
+        <select id="sunFilter">
+
+            <option value="all">
+                All Sunlight
+            </option>
+
+            <option value="low">
+                Low Sunlight
+            </option>
+
+            <option value="medium">
+                Medium Sunlight
+            </option>
+
+            <option value="high">
+                High Sunlight
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <div id="plantContainer"
+         class="plant-grid">
+
+    </div>
+
+
+    <div id="noPlants"
+         class="no-results hidden">
+
+        <i class="fa-solid fa-seedling"></i>
+
+        <h3>No plants found</h3>
+
+        <p>
+            Try another search or category.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CARE CENTER
+========================================================= -->
+
+<section id="care" class="care-section">
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            CARE CENTER
+        </span>
+
+        <h2>
+            Simple care.
+            <span>Healthier plants.</span>
+        </h2>
+
+        <p>
+            Follow these basic guidelines to help
+            your plants grow healthy.
+        </p>
+
+    </div>
+
+
+    <div class="care-grid">
+
+        <article class="care-item">
+
+            <div class="care-number">01</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-droplet"></i>
+            </div>
+
+            <h3>Watering</h3>
+
+            <p>
+                Check the soil before watering.
+                Avoid keeping soil unnecessarily wet.
+            </p>
+
+        </article>
+
+
+        <article class="care-item">
+
+            <div class="care-number">02</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-sun"></i>
+            </div>
+
+            <h3>Sunlight</h3>
+
+            <p>
+                Give each plant the amount of light
+                suitable for its specific requirements.
+            </p>
+
+        </article>
+
+
+        <article class="care-item">
+
+            <div class="care-number">03</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-mountain"></i>
+            </div>
+
+            <h3>Soil</h3>
+
+            <p>
+                Use suitable, well-draining soil
+                and select the right pot size.
+            </p>
+
+        </article>
+
+
+        <article class="care-item">
+
+            <div class="care-number">04</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-wheat-awn"></i>
+            </div>
+
+            <h3>Fertilizer</h3>
+
+            <p>
+                Use appropriate fertilizer according
+                to the plant's growth requirements.
+            </p>
+
+        </article>
+
+
+        <article class="care-item">
+
+            <div class="care-number">05</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-scissors"></i>
+            </div>
+
+            <h3>Pruning</h3>
+
+            <p>
+                Remove damaged or dead parts carefully
+                to support healthy growth.
+            </p>
+
+        </article>
+
+
+        <article class="care-item">
+
+            <div class="care-number">06</div>
+
+            <div class="care-icon">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+
+            <h3>Repotting</h3>
+
+            <p>
+                Repot when the plant outgrows its container
+                or the soil becomes unsuitable.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SEASONAL GUIDE
+========================================================= -->
+
+<section class="section seasonal-section">
+
+    <div class="section-heading">
+
+        <span class="eyebrow">
+            SEASONAL GUIDE
+        </span>
+
+        <h2>
+            Care changes with
+            <span>the season.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="season-grid">
+
+        <article class="season-card summer">
+
+            <div class="season-icon">
+                ☀️
+            </div>
+
+            <div>
+
+                <span>SUMMER</span>
+
+                <h3>Protect from heat</h3>
+
+                <p>
+                    Monitor soil moisture, protect sensitive
+                    plants from extreme heat and provide
+                    appropriate shade where needed.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="season-card monsoon">
+
+            <div class="season-icon">
+                🌧️
+            </div>
+
+            <div>
+
+                <span>MONSOON</span>
+
+                <h3>Prevent waterlogging</h3>
+
+                <p>
+                    Ensure drainage, avoid unnecessary watering
+                    and watch for fungal problems.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article class="season-card winter">
+
+            <div class="season-icon">
+                ❄️
+            </div>
+
+            <div>
+
+                <span>WINTER</span>
+
+                <h3>Reduce watering</h3>
+
+                <p>
+                    Monitor soil moisture and protect sensitive
+                    plants from very low temperatures.
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FIND MY PLANT
+========================================================= -->
+
+<section id="finder" class="finder-section">
+
+    <div class="finder-content">
+
+        <div class="section-heading left">
+
+            <span class="eyebrow">
+                SMART PLANT FINDER
+            </span>
+
+            <h2>
+                Which plant is
+                <span>right for you?</span>
+            </h2>
+
+            <p>
+                Answer three simple questions and our
+                rule-based recommendation system will
+                suggest suitable plants.
+            </p>
+
+        </div>
+
+
+        <div class="finder-box">
+
+            <div class="question">
+
+                <label>
+                    <span>01</span>
+                    Where will you grow your plant?
+                </label>
+
+                <div class="choice-grid">
+
+                    <button class="choice active"
+                            data-group="space"
+                            data-value="indoor">
+
+                        🏠
+                        <span>Indoor</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="space"
+                            data-value="balcony">
+
+                        🪴
+                        <span>Balcony</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="space"
+                            data-value="garden">
+
+                        🌳
+                        <span>Garden</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="question">
+
+                <label>
+                    <span>02</span>
+                    How much sunlight is available?
+                </label>
+
+                <div class="choice-grid">
+
+                    <button class="choice active"
+                            data-group="sun"
+                            data-value="low">
+
+                        🌥️
+                        <span>Low</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="sun"
+                            data-value="medium">
+
+                        ⛅
+                        <span>Medium</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="sun"
+                            data-value="high">
+
+                        ☀️
+                        <span>High</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="question">
+
+                <label>
+                    <span>03</span>
+                    How often can you water?
+                </label>
+
+                <div class="choice-grid">
+
+                    <button class="choice active"
+                            data-group="water"
+                            data-value="low">
+
+                        💧
+                        <span>Less</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="water"
+                            data-value="medium">
+
+                        💧💧
+                        <span>Moderate</span>
+
+                    </button>
+
+                    <button class="choice"
+                            data-group="water"
+                            data-value="high">
+
+                        💧💧💧
+                        <span>Frequent</span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <button id="findPlantButton"
+                    class="finder-button">
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                Find My Perfect Plant
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div id="finderResult"
+         class="finder-result">
+
+        <div class="result-placeholder">
+
+            <div class="result-leaf">
+                🌱
+            </div>
+
+            <h3>
+                Your recommendation
+                will appear here.
+            </h3>
+
+            <p>
+                Choose your preferences and
+                tap the button above.
+          
